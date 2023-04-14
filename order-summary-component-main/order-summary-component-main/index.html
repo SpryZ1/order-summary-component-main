@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+
+  <link rel="stylesheet" href="app.css">
+
+  <title>Frontend Mentor | Order summary card</title>
+</head>
+
+<body>
+  <div class="[ card ] [ br-1 txt-align-center ]">
+    <img class="banner" src="images/illustration-hero.svg" alt="Girl dancing to music">
+    <div class="[ card__content ] [ padding-40 grid-flow ]">
+      <h2 class="[ order__summary ] [ fw-900 ]">Order Summary</h2>
+
+      <p class="[ order__description ] [ margin-top ]">You can now listen to millions of songs, audiobooks, and podcasts
+        on any
+        device anywhere you like!</p>
+
+      <div class="[ plan flex-row ] [ margin-top padding-24 br-1 ]">
+        <div class="music__icon">
+          <img src="images/icon-music.svg" alt="">
+        </div>
+        <div>
+          <p class="[ order__plan ] [ fw-900 fs-14 ]">Annual Plan</p>
+          <p class="order__price">$59.99/year</p>
+        </div>
+
+        <a class="[ order__btn ] [ margin-left push-right ]">Change</a>
+      </div>
+
+      <button class="[ btn order__payment__btn ] [ margin-top ]" data-type="primary">Proceed to Payment</button>
+      <button class="btn order__cancel__btn" data-type="secondary">Cancel Order</button>
+    </div>
+  </div>
+
+  <div class="[ attribution ] [ txt-align-center ]">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
+    Coded by <span class="signature">SpryZi</span>.
+  </div>
+</body>
+
+</html>
